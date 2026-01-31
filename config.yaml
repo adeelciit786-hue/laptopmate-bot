@@ -1,0 +1,33 @@
+bot:
+  name: "LaptopMate"
+  version: "1.0.0"
+  description: "A helpful assistant for laptop-related queries"
+
+responses:
+  greeting:
+    - "Hello! I'm LaptopMate, your laptop assistant. How can I help you today?"
+    - "Hi there! I can help you with laptop-related questions. What do you need?"
+  
+  help:
+    - "I can help you with:\n  - Laptop recommendations\n  - Troubleshooting issues\n  - Hardware specifications\n  - Software recommendations\n  - Performance optimization tips"
+  
+  goodbye:
+    - "Goodbye! Feel free to come back if you need more help with your laptop."
+    - "See you later! Happy computing!"
+
+knowledge:
+  recommendations:
+    budget:
+      - "For budget laptops under $500, consider Chromebooks or entry-level Windows laptops with Intel Core i3 or AMD Ryzen 3 processors."
+    mid_range:
+      - "For mid-range laptops ($500-$1000), look for Intel Core i5/i7 or AMD Ryzen 5/7 processors with at least 8GB RAM and SSD storage."
+    premium:
+      - "For premium laptops ($1000+), consider MacBook Pro, Dell XPS, ThinkPad X1 Carbon, or HP Spectre series with high-end specs."
+  
+  troubleshooting:
+    slow_performance:
+      - "Try these steps: 1) Close unnecessary programs 2) Check for malware 3) Clean up disk space 4) Upgrade RAM if possible 5) Replace HDD with SSD"
+    battery_issues:
+      - "Battery tips: 1) Calibrate your battery 2) Reduce screen brightness 3) Close background apps 4) Check battery health in settings 5) Consider battery replacement if old"
+    overheating:
+      - "To fix overheating: 1) Clean dust from vents 2) Use on hard, flat surface 3) Check CPU usage 4) Update drivers 5) Consider laptop cooling pad"
